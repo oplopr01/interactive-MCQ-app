@@ -1,11 +1,13 @@
+
+
 :root {
-  background-color: #ecf5ff;
+  background-color: #81b6f1;
   font-size: 62.5%;
 }
 
 * {
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:monospace;
   margin: 0;
   padding: 0;
   color: #333;
@@ -20,7 +22,7 @@ h4 {
 
 h1 {
   font-size: 5.4rem;
-  color: #56a5eb;
+  color: #7637ecda;
   margin-bottom: 5rem;
 }
 
@@ -40,7 +42,7 @@ h3 {
   font-weight: 500;
 }
 
-/* UTILITIES */
+/* UTILITIES SECTION*/
 
 .container {
   width: 100vw;
@@ -85,16 +87,16 @@ h3 {
   padding: 1rem 0;
   width: 20rem;
   text-align: center;
-  border: 0.1rem solid #56a5eb;
+  border: 0.1rem solid #2330eb;
   margin-bottom: 1rem;
   text-decoration: none;
-  color: #56a5eb;
-  background-color: white;
+  color: brown;
+  background-color: rgb(177, 226, 99);
 }
 
 .btn:hover {
   cursor: pointer;
-  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(216, 95, 95, 0.836);
   transform: translateY(-0.1rem);
   transition: transform 150ms;
 }
@@ -125,3 +127,6 @@ input {
 input::placeholder {
   color: #aaa;
 }
+
+
+
